@@ -13,6 +13,7 @@
 
 Automatically downloads latest chrome driver</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>tstuff-$(AssemblyName)</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
