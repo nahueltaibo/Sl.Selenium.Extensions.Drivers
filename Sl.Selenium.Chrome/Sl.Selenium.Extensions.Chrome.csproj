@@ -13,7 +13,7 @@
 
 Automatically downloads latest chrome driver</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>$(AssemblyName)</PackageId>
+    <PackageId>NT.Selenium.Extensions.Chrome</PackageId>
     <AssemblyName>NT.Selenium.Extensions.Chrome</AssemblyName>
   </PropertyGroup>
 
