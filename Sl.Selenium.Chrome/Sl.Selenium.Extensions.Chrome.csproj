@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.4.0</Version>
-    <Authors>emre-gon</Authors>
+    <Version>2.4.1</Version>
+    <Authors>emre-gon, nahueltaibo</Authors>
     <Copyright>2022</Copyright>
     <PackageProjectUrl>https://github.com/emre-gon/Sl.Selenium.Extensions.Drivers</PackageProjectUrl>
     <RepositoryUrl>https://github.com/emre-gon/Sl.Selenium.Extensions.Drivers</RepositoryUrl>
@@ -14,6 +14,7 @@
 Automatically downloads latest chrome driver</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>tstuff-$(AssemblyName)</PackageId>
+    <AssemblyName>NT.Selenium.Extensions.Chrome</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
