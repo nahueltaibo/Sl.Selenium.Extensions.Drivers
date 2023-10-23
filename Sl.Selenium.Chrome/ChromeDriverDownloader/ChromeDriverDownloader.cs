@@ -100,8 +100,16 @@ namespace Sl.Selenium.Extensions.Chrome.DriverDownloader
 
 			var extractedChromeDriver = filesAfter.First(f => !filesBefore.Contains(f));
 
+			// delete old driver
+			File.Delete(options.DriverPath);
+
+			// move rename downloaded driver to proper location
 			File.Move(extractedChromeDriver, options.DriverPath);
+
+			//Delete the compressed file we downloaded
 			File.Delete(compressedFilePath);
+
+			//Delete the folder we extracted the zip file to
 			Directory.Delete(directoryAfter, true);
 		}
 	}
